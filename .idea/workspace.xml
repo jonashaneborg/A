@@ -1,7 +1,214 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7489d67e-8bb0-4df8-8f00-96edf00fec21" name="Default Changelist" comment="" />
+    <list default="true" id="7489d67e-8bb0-4df8-8f00-96edf00fec21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Vote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/db.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/log/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/log/log.ctrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/log/log1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/log/logmirror.ctrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c10.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c101.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c111.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c121.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c130.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c141.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c150.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c161.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c171.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c180.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c191.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c1a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c1b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c1c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c1d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c1e0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c1f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c20.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c200.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c211.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c221.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c230.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c241.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c251.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c260.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c271.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c281.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c290.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c2a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c2b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c2c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c2d0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c2e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c2f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c300.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c31.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c311.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c321.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c331.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c340.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c351.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c361.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c371.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c380.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c391.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c3a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c3b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c3c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c3d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c3e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c3f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c400.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c41.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c411.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c421.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c430.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c441.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c451.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c461.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c470.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c481.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c490.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c4a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c4b0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c4c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c4d0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c4e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c4f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c501.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c51.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c510.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c521.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c530.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c541.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c550.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c561.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c570.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c581.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c591.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c5a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c5b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c5c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c5d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c5e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c5f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c60.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c601.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c611.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c621.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c631.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c640.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c651.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c71.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c81.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c90.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/ca1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/cb1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/cc0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/cd1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/ce1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/cf0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingdb/service.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JPA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/CreditCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Pincode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/db.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/log/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/log/log.ctrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/log/log1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/log/logmirror.ctrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c10.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c101.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c111.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c121.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c130.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c141.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c150.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c161.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c171.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c180.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c191.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c1a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c1b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c1c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c1d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c1e0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c1f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c20.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c200.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c211.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c221.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c230.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c241.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c251.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c260.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c271.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c281.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c290.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c2a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c2b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c2c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c2d0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c2e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c2f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c300.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c31.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c311.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c321.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c331.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c340.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c351.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c361.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c371.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c380.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c391.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c3a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c3b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c3c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c3d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c3e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c3f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c400.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c41.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c411.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c421.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c430.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c441.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c451.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c461.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c470.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c481.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c490.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c4a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c51.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c60.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c71.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c81.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/c90.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/ca1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/cb1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/cc0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/cd1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/ce1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/seg0/cf0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb/service.properties" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,20 +221,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+            <state relative-caret-position="612">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Vote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="68" column="55" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+            <state relative-caret-position="527">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Poll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,19 +276,29 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bank</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/EXP2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/CreditCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Pincode.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Person.java" />
+        <option value="$PROJECT_DIR$/jpa-basic.iml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/derby.log" />
         <option value="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Poll.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Vote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/User.java" />
       </list>
     </option>
   </component>
@@ -75,37 +320,22 @@
           <expand>
             <path>
               <item name="jpa-basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EXP2" type="462c0819:PsiDirectoryNode" />
+              <item name="JPA" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jpa-basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EXP2" type="462c0819:PsiDirectoryNode" />
+              <item name="JPA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jpa-basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EXP2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jpa-basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EXP2" type="462c0819:PsiDirectoryNode" />
+              <item name="JPA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jpa-basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EXP2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basicexample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jpa-basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EXP2" type="462c0819:PsiDirectoryNode" />
+              <item name="JPA" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -118,7 +348,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599128677983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600110931992" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -146,7 +376,7 @@
   <component name="RunManager" selected="Application.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.hvl.dat250.jpa.basicexample.App" />
-      <module name="jpa-basic" />
+      <module name="JPA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="no.hvl.dat250.jpa.basicexample.*" />
@@ -159,7 +389,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.hvl.dat250.jpa.basicexample.Main" />
-      <module name="jpa-basic" />
+      <module name="JPA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="no.hvl.dat250.jpa.basicexample.*" />
@@ -190,25 +420,62 @@
       <workItem from="1598966024639" duration="3242000" />
       <workItem from="1599040188035" duration="8032000" />
       <workItem from="1599126794089" duration="872000" />
-      <workItem from="1599127835214" duration="842000" />
+      <workItem from="1599127835214" duration="1693000" />
+      <workItem from="1599502140139" duration="599000" />
+      <workItem from="1600104180824" duration="1838000" />
+      <workItem from="1600106279793" duration="400000" />
+      <workItem from="1600107058698" duration="2819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12988000" />
+    <option name="totallyTimeSpent" value="19495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="93" y="-6" width="1414" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49943376" visible="true" weight="0.26106194" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49324325" visible="true" weight="0.20870206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" side_tool="true" />
+      <window_info id="Persistence" order="3" sideWeight="0.5067568" side_tool="true" visible="true" weight="0.20870206" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" sideWeight="0.50056624" side_tool="true" weight="0.25368732" />
+      <window_info id="Favorites" order="7" sideWeight="0.50169873" side_tool="true" weight="0.26843658" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295583" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49493244" visible="true" weight="0.2758112" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Persistence" order="3" sideWeight="0.5050676" side_tool="true" visible="true" weight="0.2758112" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.50169873" side_tool="true" weight="0.26843658" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295583" />
@@ -232,7 +499,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -248,22 +515,202 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/App.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Todo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Address.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/CreditCard.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Pincode.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Bank.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Person.java">
+    <entry file="uml://Persistence/JavaeeElement:/e48c9dbc/poll/jpa-basic/jpa/JPA/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/e48c9dbc/poll/jpa-basic/jpa/JPA/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="71.74999999999997" y="123.0">CreditCard#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/CreditCard.java</node>
+            <node x="141.99999999999997" y="0.0">Bank#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Bank.java</node>
+            <node x="212.74999999999997" y="134.0">Address#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Address.java</node>
+            <node x="382.75" y="0.0">User#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/User.java</node>
+            <node x="0.0" y="0.0">Pincode#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Pincode.java</node>
+            <node x="397.25" y="167.0">Vote#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Vote.java</node>
+            <node x="55.0" y="408.0">Vote#null</node>
+            <node x="141.24999999999997" y="290.0">Person#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Person.java</node>
+            <node x="0.0" y="487.0">Poll#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Poll.java</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="CreditCard#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/CreditCard.java" target="Person#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Person.java">
+              <point x="30.25" y="58.5" />
+              <point x="162.49999999999997" y="265.0" />
+              <point x="187.74999999999997" y="265.0" />
+              <point x="-15.5" y="-36.5" />
+            </edge>
+            <edge source="Poll#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Poll.java" target="Vote#null">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="CreditCard#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/CreditCard.java" target="Bank#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Bank.java">
+              <point x="15.125" y="-58.5" />
+              <point x="147.37499999999997" y="93.0" />
+              <point x="172.99999999999997" y="93.0" />
+              <point x="-31.0" y="36.5" />
+            </edge>
+            <edge source="Person#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Person.java" target="CreditCard#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/CreditCard.java">
+              <point x="-46.5" y="-36.5" />
+              <point x="156.74999999999997" y="265.0" />
+              <point x="101.99999999999997" y="265.0" />
+              <point x="-30.25" y="58.5" />
+            </edge>
+            <edge source="CreditCard#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/CreditCard.java" target="Pincode#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Pincode.java">
+              <point x="-45.375" y="-58.5" />
+              <point x="86.87499999999997" y="103.0" />
+              <point x="30.5" y="103.0" />
+              <point x="-30.5" y="36.5" />
+            </edge>
+            <edge source="Vote#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Vote.java" target="User#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/User.java">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="Address#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Address.java" target="Person#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Person.java">
+              <point x="31.25" y="47.5" />
+              <point x="306.5" y="265.0" />
+              <point x="249.74999999999997" y="265.0" />
+              <point x="46.49999999999999" y="-36.5" />
+            </edge>
+            <edge source="Bank#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Bank.java" target="CreditCard#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/CreditCard.java">
+              <point x="31.0" y="36.5" />
+              <point x="234.99999999999997" y="103.0" />
+              <point x="177.62499999999997" y="103.0" />
+              <point x="45.375" y="-58.5" />
+            </edge>
+            <edge source="Person#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Person.java" target="Address#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Address.java">
+              <point x="15.5" y="-36.5" />
+              <point x="218.74999999999997" y="265.0" />
+              <point x="243.99999999999997" y="265.0" />
+              <point x="-31.25" y="47.5" />
+            </edge>
+            <edge source="Pincode#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Pincode.java" target="CreditCard#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/CreditCard.java">
+              <point x="30.5" y="36.5" />
+              <point x="91.5" y="93.0" />
+              <point x="117.12499999999997" y="93.0" />
+              <point x="-15.125" y="-58.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="11.0" y="104.0" />
+          <SelectedNodes>
+            <node>Person#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/EXP2/src/main/java/no/hvl/dat250/jpa/basicexample/Person.java</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Embeddables</Category>
+            <Category>Superclasses</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/CreditCard.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Person.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derby.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="68" column="55" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+        <state relative-caret-position="119">
+          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JPA.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar!/javax/persistence/Persistence.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Persistence/JavaeeElement:/acd07a99/poll/JPA/jpa/JPA/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/acd07a99/poll/JPA/jpa/JPA/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="14.5" y="167.0">Vote#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/A/JPA/src/main/java/no/hvl/dat250/jpa/basicexample/Vote.java</node>
+            <node x="13.5" y="290.0">Poll#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/A/JPA/src/main/java/no/hvl/dat250/jpa/basicexample/Poll.java</node>
+            <node x="0.0" y="0.0">User#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/A/JPA/src/main/java/no/hvl/dat250/jpa/basicexample/User.java</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Vote#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/A/JPA/src/main/java/no/hvl/dat250/jpa/basicexample/Vote.java" target="User#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/A/JPA/src/main/java/no/hvl/dat250/jpa/basicexample/User.java">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="Poll#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/A/JPA/src/main/java/no/hvl/dat250/jpa/basicexample/Poll.java" target="Vote#file://C:/Users/jonha/Google Drive/Skole/Programutvikling/DAT250/A/JPA/src/main/java/no/hvl/dat250/jpa/basicexample/Vote.java">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8999999999999999" x="-273.933954933955" y="152.18803418803418" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Embeddables</Category>
+            <Category>Superclasses</Category>
+            <Category>Properties</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state relative-caret-position="612">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Poll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Vote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

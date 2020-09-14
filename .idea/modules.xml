@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jpa-basic.iml" filepath="$PROJECT_DIR$/jpa-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JPA.iml" filepath="$PROJECT_DIR$/JPA.iml" />
     </modules>
   </component>
 </project>
