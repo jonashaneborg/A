@@ -1,214 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7489d67e-8bb0-4df8-8f00-96edf00fec21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Vote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/db.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/log/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/log/log.ctrl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/log/log1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/log/logmirror.ctrl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c10.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c101.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c111.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c121.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c130.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c141.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c150.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c161.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c171.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c180.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c191.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c1a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c1b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c1c0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c1d1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c1e0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c1f1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c20.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c200.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c211.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c221.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c230.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c241.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c251.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c260.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c271.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c281.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c290.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c2a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c2b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c2c1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c2d0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c2e1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c2f0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c300.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c31.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c311.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c321.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c331.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c340.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c351.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c361.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c371.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c380.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c391.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c3a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c3b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c3c0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c3d1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c3e1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c3f1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c400.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c41.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c411.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c421.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c430.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c441.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c451.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c461.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c470.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c481.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c490.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c4a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c4b0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c4c1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c4d0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c4e1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c4f0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c501.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c51.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c510.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c521.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c530.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c541.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c550.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c561.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c570.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c581.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c591.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c5a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c5b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c5c1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c5d1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c5e1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c5f1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c60.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c601.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c611.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c621.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c631.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c640.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c651.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c71.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c81.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/c90.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/ca1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/cb1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/cc0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/cd1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/ce1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/seg0/cf0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankingdb/service.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JPA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Bank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/CreditCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Pincode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/db.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/log/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/log/log.ctrl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/log/log1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/log/logmirror.ctrl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c10.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c101.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c111.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c121.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c130.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c141.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c150.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c161.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c171.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c180.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c191.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c1a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c1b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c1c0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c1d1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c1e0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c1f1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c20.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c200.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c211.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c221.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c230.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c241.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c251.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c260.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c271.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c281.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c290.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c2a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c2b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c2c1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c2d0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c2e1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c2f0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c300.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c31.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c311.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c321.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c331.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c340.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c351.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c361.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c371.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c380.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c391.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c3a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c3b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c3c0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c3d1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c3e1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c3f1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c400.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c41.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c411.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c421.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c430.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c441.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c451.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c461.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c470.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c481.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c490.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c4a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c51.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c60.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c71.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c81.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/c90.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/ca1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/cb1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/cc0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/cd1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/ce1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/seg0/cf0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb/service.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="7489d67e-8bb0-4df8-8f00-96edf00fec21" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -221,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="221">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="272">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#818#819#0" expanded="true" />
@@ -325,17 +118,6 @@
             <path>
               <item name="jpa-basic" type="b2602c69:ProjectViewProjectNode" />
               <item name="JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jpa-basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jpa-basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JPA" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -348,7 +130,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600110931992" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600111166585" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -379,7 +161,7 @@
       <module name="JPA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="no.hvl.dat250.jpa.basicexample.*" />
+          <option name="PATTERN" value="no.hvl.dat250.jpa.classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -388,11 +170,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="no.hvl.dat250.jpa.basicexample.Main" />
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat250.jpa.classes.Main" />
       <module name="JPA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="no.hvl.dat250.jpa.basicexample.*" />
+          <option name="PATTERN" value="no.hvl.dat250.jpa.classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -424,16 +206,23 @@
       <workItem from="1599502140139" duration="599000" />
       <workItem from="1600104180824" duration="1838000" />
       <workItem from="1600106279793" duration="400000" />
-      <workItem from="1600107058698" duration="2819000" />
+      <workItem from="1600107058698" duration="3098000" />
     </task>
+    <task id="LOCAL-00001" summary="JPA of task A.">
+      <created>1600110986081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600110986082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19495000" />
+    <option name="totallyTimeSpent" value="19774000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="-6" width="1414" height="1013" extended-state="6" />
-    <editor active="true" />
+    <frame x="93" y="-6" width="1414" height="1013" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49324325" visible="true" weight="0.20870206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -445,7 +234,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.50169873" side_tool="true" weight="0.26843658" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295583" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,7 +242,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3295583" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -503,6 +292,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JPA of task A." />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA of task A." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/no/hvl/dat250/jpa/basicexample/AppTest.java" />
@@ -676,13 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Poll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -702,8 +488,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="272">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#818#819#0" expanded="true" />
@@ -711,6 +497,13 @@
             <element signature="e#897#898#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hvl/dat250/jpa/basicexample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>

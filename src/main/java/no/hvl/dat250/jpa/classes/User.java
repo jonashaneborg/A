@@ -1,4 +1,4 @@
-package no.hvl.dat250.jpa.basicexample;
+package no.hvl.dat250.jpa.classes;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
